@@ -9,7 +9,7 @@ import Menu from "@/view/Menu";
 import ArticleDetail from "@/view/ArticleDetail";
 
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, useHistory,Redirect } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, useHistory,Redirect } from "react-router-dom";
 
 class App extends React.Component {
   constructor(props) {
